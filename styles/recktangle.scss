@@ -1,15 +1,20 @@
-.recktangle {
-	position: absolute;
-	flex-wrap: nowrap;
-	height: 25px;
-	width: 135px;
-	margin: 26px auto auto 275px;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 25px;
-	background-color: $theme-color-red;
-	transform: rotate(45deg);
+.recktangle_row {
+	margin: 0;
+	padding: 0;
+	&__obj {
+		position: absolute;
+		flex-wrap: nowrap;
+		height: 25px;
+		width: 120px;
+		top: 20px;
+		left: 287px;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 25px;
+		background-color: $theme-color-red;
+		transform: rotate(45deg);
+	}
 }
 
 .table2 {
