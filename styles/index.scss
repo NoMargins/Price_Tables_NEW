@@ -39,10 +39,19 @@ table {
 	overflow: hidden;
 	width: 380px;
 	height: 770px;
-	border: none;
+	border-spacing: 0px;
 	border-collapse: collapse;
 	background-color: $table-background-color;
 	box-shadow: $box-shadow-color;
+}
+
+tr,
+td {
+	width: 0px;
+	height: 0px;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .green-background {
@@ -69,6 +78,9 @@ table {
 	margin-top: 0;
 }
 
+.button {
+}
+
 .price-card {
 	&__title {
 		height: 130px;
@@ -78,20 +90,43 @@ table {
 		font-size: 55px;
 		font-weight: 700;
 		line-height: 105px;
+		border: 0;
+		margin: 0;
 	}
 	&__description {
 		padding: 40px 30px;
 	}
-
 	&__order-btn {
 		height: 40px;
 		width: 155px;
-		margin: 19px auto 40px;
-		border: 0;
 		border-radius: 20px;
+		margin: 39px auto 37px;
+		border: none;
 		font-weight: 400;
 		font-size: 14px;
 		color: $font-color;
 		text-transform: uppercase;
 	}
+}
+
+.recktangle_row__obj {
+	position: absolute;
+	flex-wrap: nowrap;
+	height: 25px;
+	width: 120px;
+	top: 20px;
+	left: 287px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 25px;
+	background-color: $theme-color-red;
+	transform: rotate(45deg);
+}
+
+.table2 {
+	position: relative;
+	overflow: hidden;
+	margin-left: 18px;
+	margin-right: 18px;
 }
