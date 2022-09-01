@@ -39,6 +39,7 @@ table {
 	overflow: hidden;
 	width: 380px;
 	height: 770px;
+	border: none;
 	border-collapse: collapse;
 	background-color: $table-background-color;
 	box-shadow: $box-shadow-color;
@@ -70,7 +71,7 @@ table {
 
 .price-card {
 	&__title {
-		margin: 33px auto;
+		height: 130px;
 	}
 	&__price {
 		height: 105px;
