@@ -17,19 +17,20 @@ ul {
 .price-card__options-list_item:nth-child(odd) {
 	height: 50px;
 	background-color: $table-item-color;
+	mix-blend-mode: normal;
 }
 
 ul.green > .price-card__options-list_item:before {
-	margin: auto 22px;
+	margin: 18px 22px 19px;
 	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
 ul.blue > .price-card__options-list_item:before {
-	margin: auto 22px;
+	margin: 18px 22px 19px;
 	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
 ul.orange > .price-card__options-list_item:before {
-	margin: auto 22px;
+	margin: 18px 22px 19px;
 	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
