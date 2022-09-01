@@ -88,8 +88,6 @@ li:nth-child(odd) {
 	}
 	&__order-btn {
 		box-sizing: border-box;
-		// align-items: center;
-		// justify-content: center;
 		height: 40px;
 		width: 155px;
 		margin: 19px auto 40px;
@@ -97,6 +95,7 @@ li:nth-child(odd) {
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 14px;
+		color: $font-color;
 		text-transform: uppercase;
 	}
 	&__options-list_plan {
