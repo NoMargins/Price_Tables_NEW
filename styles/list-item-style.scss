@@ -1,0 +1,23 @@
+li {
+	height: 50px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 50px;
+}
+
+ul.green > li.price-card__options-list_plan-item:before {
+	margin: auto 22px;
+	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+ul.blue > li.price-card__options-list_plan-item:before {
+	margin: auto 22px;
+	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+ul.orange > li.price-card__options-list_plan-item:before {
+	margin: auto 22px;
+	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}

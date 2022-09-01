@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import 'variables.scss';
+@import 'variables.scss', 'recktangle.scss', 'list-item-style.scss';
+
 * {
 	box-sizing: border-box;
 }
@@ -102,52 +103,5 @@ li:nth-child(odd) {
 		margin: 0;
 		padding: 0;
 		text-align: left;
-		&_plan-item,
-		li {
-			height: 50px;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			font-weight: 300;
-			font-size: 15px;
-			line-height: 50px;
-		}
 	}
-}
-
-ul.green > li.price-card__options-list_plan-item:before {
-	margin: auto 22px;
-	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-}
-
-ul.blue > li.price-card__options-list_plan-item:before {
-	margin: auto 22px;
-	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-}
-
-ul.orange > li.price-card__options-list_plan-item:before {
-	margin: auto 22px;
-	content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-}
-
-.recktangle {
-	position: absolute;
-	flex-wrap: nowrap;
-	height: 25px;
-	width: 135px;
-	margin: 26px auto auto 275px;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 25px;
-	background-color: $theme-color-red;
-	transform: rotate(45deg);
-}
-
-.table2 {
-	position: relative;
-	overflow: hidden;
-	margin-left: 18px;
-	margin-right: 18px;
 }
