@@ -92,9 +92,9 @@ li:nth-child(odd) {
     margin: 0;
     padding: 0;
     border: 0;
-    line-height: 50px;
     font-weight: 300;
-    font-size: 15px; }
+    font-size: 15px;
+    line-height: 50px; }
 
 ul.green > li.price-card__options-list_plan-item:before {
   margin: auto 22px;
